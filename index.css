@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 60%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    color: #666;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Form Styles */
+.form {
+    text-align: center;
+}
+
+.guessField {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.guessSubmit {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.guessSubmit:hover {
+    background-color: #45a049;
+}
+
+/* Result Styles */
+.resultParas {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.lowOrHi {
+    font-weight: bold;
+}
+
+.guesses {
+    font-style: italic;
+}
